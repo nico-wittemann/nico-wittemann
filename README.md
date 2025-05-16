@@ -55,7 +55,7 @@ A simple web app to search and save movies using the OMDb API.
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/API-Entwicklung-blue?style=flat"/>
+<img src="https://img.shields.io/badge/API--Development-blue?style=flat"/>
 
 🔗 [**GitHub Repository**](https://github.com/nico-wittemann/MovieWeb_app)
 
