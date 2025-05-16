@@ -14,8 +14,8 @@ Currently looking for a **Junior Backend Developer** role or internship to gain 
 <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/REST-API-green?style=flat"/>
 
 ---
