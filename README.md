@@ -1,42 +1,44 @@
 # 👨‍💻 Nico Wittemann – Backend Developer (Python · Django · PostgreSQL)
 
-I'm a junior backend developer who focuses on building structured, real-world backend systems using **Python**, **Django**, **Flask**, and **PostgreSQL**.
+Hi, I'm Nico – a junior backend developer with an engineering background, now fully focused on building real-world web backends using **Python**, **Django**, and **PostgreSQL**.
 
-Coming from an engineering background, I transitioned into software to build logic that runs online – APIs, databases, clean data flows.  
-My projects are centered around backend architecture, authentication, and handling real data.
-
----
-
-### 🛠 Core Tech Stack
-
-- **Languages:** Python  
-- **Frameworks:** Django, Flask  
-- **Databases:** PostgreSQL, SQLite  
-- **APIs & Data:** REST, OpenAI API · JSON, CSV
-- **Tools & Workflow:** Git, Postman, CLI
+I love creating structured APIs, automating logic with clean Python code, and working with relational databases.  
+Currently looking for a **Junior Backend Developer** role or internship to gain experience in production environments.
 
 ---
 
-### 📌 Featured Projects
+## 🛠️ Tech Stack
 
-- 🖥️ [PC Shop API (Django + GPT-4o)](https://github.com/nico-wittemann/django_pc_webshop_api)  
-  Full backend for a custom PC configuration shop with PostgreSQL database, product management, JWT authentication, and GPT-driven build generation.
-
-- 🎬 [Movie Manager (Flask)](https://github.com/nico-wittemann/MovieWeb_app)  
-  Flask web app with OMDb API integration, HTML templates, user login, and a local database for managing personal movie favorites.
-
-- 🧪 [Practice Scripts](https://github.com/nico-wittemann?tab=repositories)  
-  Smaller logic-driven Python tools created during backend learning – focused on API testing, file handling, and database access.
-
----
-
-### 🚀 Goals
-
-I'm currently looking for a **junior backend role** or internship where I can contribute to backend architecture, expand my experience with production APIs and structured data, and work with real-world tech challenges.
+**Languages & Tools:**  
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
+<img src="https://img.shields.io/badge/REST-API-green?style=flat"/>
 
 ---
 
-### 📫 Contact
+## 🔍 Highlight Projects
 
-- [LinkedIn – nico-wittemann](https://www.linkedin.com/in/nico-wittemann)  
-- 📧 nico.wittemann96@gmail.com
+- 🖥️ [**PC Shop API (Django + GPT-4o)**](https://github.com/nico-wittemann/django_pc_webshop_api)  
+  Smart API for configuring custom PCs with JWT auth, PostgreSQL DB, and GPT-powered suggestions.
+
+- 🎬 [**MovieWeb App (Flask)**](https://github.com/nico-wittemann/MovieWeb_app)  
+  Web app for managing favorite movies with user login and OMDb API integration.
+
+---
+
+## 🎯 Goals
+
+- Contribute to a real dev team and expand my backend skills  
+- Work on scalable APIs, authentication, and structured database logic  
+- Learn deployment, performance, and architecture best practices
+
+---
+
+## 📫 Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-wittemann)  
+📧 nico.wittemann96@gmail.com
