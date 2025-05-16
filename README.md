@@ -1,13 +1,17 @@
-👨‍💻 Nico Wittemann – Backend Developer (Python · Django · PostgreSQL)
-Hi, I'm Nico – a junior backend developer with an engineering background, now fully focused on building real-world web backends using Python, Django, and PostgreSQL.
+# 👨‍💻 Nico Wittemann – Backend Developer (Python · Django · PostgreSQL)
 
-I love creating structured APIs, automating logic with clean Python code, and working with relational databases.
-I'm also eager to learn new frameworks and programming languages.
+Hi, I'm Nico – a junior backend developer with an engineering background, now fully focused on building real-world web backends using **Python**, **Django**, and **PostgreSQL**.
 
-Currently looking for a Junior Backend Developer role or internship to gain experience in production environments.
+I love creating structured APIs, automating logic with clean Python code, and working with relational databases.  
+I'm also eager to **learn new frameworks or programming languages** to grow as a developer.
 
-🛠️ Tech Stack
-Languages & Tools:
+Currently looking for a **Junior Backend Developer** role or internship to gain experience in production environments.
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages & Tools:**  
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
@@ -16,17 +20,18 @@ Languages & Tools:
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/REST-API-green?style=flat"/>
 
-🔍 Highlight Projects
-🖥️ E-Commerce Backend API (Django + GPT-4o)
+---
+
+## 🔍 Highlight Projects
+
+### 🖥️ E-Commerce Backend API (Django + GPT-4o)  
 A backend API for configuring custom PCs with intelligent GPT-based suggestions.
 
-Django REST API with JWT auth, product/order management, and PostgreSQL DB
+- Django REST API with JWT auth, product/order management, and PostgreSQL DB  
+- GPT-4o integration to suggest PC builds based on budget and purpose  
+- CSV import automation and deployment on Render
 
-GPT-4o integration to suggest PC builds based on budget and purpose
-
-CSV import automation and deployment on Render
-
-🛠️ Tech Stack:
+**Tech Stack:**  
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
@@ -35,24 +40,26 @@ CSV import automation and deployment on Render
 <img src="https://img.shields.io/badge/GPT4o-black?style=flat"/>
 <img src="https://img.shields.io/badge/Render-46E3B7?style=flat"/>
 
-🔗 GitHub Repository
+🔗 [**GitHub Repository**](https://github.com/nico-wittemann/django_pc_webshop_api)
 
-🎬 Movie Web App (Flask)
+---
+
+### 🎬 Movie Web App (Flask)  
 A simple web app to search and save movies using the OMDb API.
 
-Flask app with movie search, user login, and favorites management
+- Flask app with movie search, user login, and favorites management  
+- OMDb API integration and local data storage with SQLite  
+- CRUD operations and routing with Flask Blueprints
 
-OMDb API integration and local data storage with SQLite
-
-CRUD operations and routing with Flask Blueprints
-
-🛠️ Tech Stack:
+**Tech Stack:**  
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/API-Entwicklung-blue?style=flat"/>
 
-🔗 GitHub Repository
+🔗 [**GitHub Repository**](https://github.com/nico-wittemann/MovieWeb_app)
+
+---
 
 ## 🎯 Goals
 
@@ -61,6 +68,9 @@ CRUD operations and routing with Flask Blueprints
 - Learn deployment, performance, and architecture best practices  
 - Stay open to learning new frameworks or programming languages like FastAPI, Docker, or others relevant to the team
 
-📫 Contact
+---
 
-📧 nico.wittemann96@gmail.com
+## 📫 Contact
+
+📧 nico.wittemann96@gmail.com  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-wittemann)
