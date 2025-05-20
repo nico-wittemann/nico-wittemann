@@ -75,5 +75,6 @@ A simple web app to search and save movies using the OMDb API.
 📧 nico.wittemann96@gmail.com  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-wittemann)
-[![Personal Portfolio](https://img.shields.io/badge/Portfolio-Online-orange?style=flat&logo=firefox&logoColor=white)](https://nico-wittemann.github.io/personal-portfolio/)
+[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-Online-orange?style=flat&logo=firefox&logoColor=white)](https://nico-wittemann.github.io/personal-portfolio/)
+
 
