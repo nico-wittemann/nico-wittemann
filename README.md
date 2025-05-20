@@ -70,7 +70,7 @@ A simple web app to search and save movies using the OMDb API.
 
 ---
 
-## 📫 Contact
+## 📫 Contact & Links
 
 📧 nico.wittemann96@gmail.com  
 
