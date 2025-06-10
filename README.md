@@ -27,7 +27,7 @@ Currently looking for a **Junior Backend Developer** role or internship to gain 
 ### 🖥️ Django PC Webshop Backend (Django + GPT-4o)  
 A backend API for configuring custom PCs with intelligent GPT-based suggestions.
 
-- Django REST API with JWT auth, product/order management, and PostgreSQL DB  
+- Django REST API with JWT auth, product/orders, Stripe payments + webhooks, and PostgreSQL 
 - GPT-4o integration to suggest PC builds based on budget and purpose  
 - CSV import automation and deployment on Render
 
