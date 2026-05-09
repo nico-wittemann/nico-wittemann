@@ -43,6 +43,81 @@ Before moving into software, I worked in **industrial automation** as a PLC prog
 
 ---
 
+## 🧭 AI System Architecture Mindset
+
+```mermaid
+flowchart LR
+    subgraph INPUT["📥 Input Layer"]
+        A1["Emails"]
+        A2["Documents"]
+        A3["Forms"]
+        A4["Unstructured Text"]
+    end
+
+    subgraph UNDERSTANDING["🧠 AI Understanding Layer"]
+        B1["Classification"]
+        B2["Information Extraction"]
+        B3["Context Matching"]
+        B4["Validation"]
+    end
+
+    subgraph STRUCTURE["📊 Structured Output Layer"]
+        C1["JSON Output"]
+        C2["Detected Fields"]
+        C3["Missing Information"]
+        C4["Risk / Priority Signals"]
+    end
+
+    subgraph WORKFLOW["⚙️ Workflow Layer"]
+        D1["Routing Logic"]
+        D2["API Actions"]
+        D3["Draft Preparation"]
+        D4["Next Step Suggestion"]
+    end
+
+    subgraph CONTROL["👤 Human Control Layer"]
+        E1["Review"]
+        E2["Decision"]
+        E3["Send / Approve"]
+    end
+
+    subgraph OBSERVE["📡 Observability Layer"]
+        F1["Tracing"]
+        F2["Debugging"]
+        F3["Quality Checks"]
+        F4["Feedback Loops"]
+    end
+
+    INPUT --> UNDERSTANDING
+    UNDERSTANDING --> STRUCTURE
+    STRUCTURE --> WORKFLOW
+    WORKFLOW --> CONTROL
+    WORKFLOW --> OBSERVE
+    OBSERVE --> UNDERSTANDING
+
+    classDef input fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#ffffff;
+    classDef ai fill:#1e1b4b,stroke:#a78bfa,stroke-width:2px,color:#ffffff;
+    classDef output fill:#052e2b,stroke:#34d399,stroke-width:2px,color:#ffffff;
+    classDef workflow fill:#1c1917,stroke:#f59e0b,stroke-width:2px,color:#ffffff;
+    classDef human fill:#3f1d2b,stroke:#fb7185,stroke-width:3px,color:#ffffff;
+    classDef observe fill:#111827,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+
+    class A1,A2,A3,A4 input;
+    class B1,B2,B3,B4 ai;
+    class C1,C2,C3,C4 output;
+    class D1,D2,D3,D4 workflow;
+    class E1,E2,E3 human;
+    class F1,F2,F3,F4 observe;
+```
+
+<div align="center">
+
+**From messy input to structured action — with AI preparing the workflow and humans staying in control.**
+
+</div>
+
+---
+
 ## 🚀 Current Focus
 
 <table>
@@ -198,13 +273,81 @@ Python · Django REST Framework · PostgreSQL · JWT · Stripe · GPT-4o · Rend
 
 ---
 
-## 🧭 How I Think About AI Systems
+## 🧬 AI Workflow Blueprint
 
 ```mermaid
-flowchart LR
-    A[Messy Input] --> B[Classification]
-    B --> C[Information Extraction]
-    C --> D[Structured Output]
-    D --> E[Workflow Decision]
-    E --> F[Draft / Action / Next Step]
-    F --> G[Human Review]
+sequenceDiagram
+    autonumber
+    participant U as User / Incoming Request
+    participant API as Backend API
+    participant ORCH as Workflow Orchestrator
+    participant LLM as LLM / Agent Layer
+    participant CTX as Context / Tools
+    participant OBS as Observability
+    participant H as Human Review
+
+    U->>API: Submit messy input
+    API->>ORCH: Normalize request
+    ORCH->>LLM: Classify + extract information
+    LLM->>CTX: Use context, tools, or rules
+    CTX-->>LLM: Return relevant signals
+    LLM-->>ORCH: Structured JSON output
+    ORCH->>OBS: Trace result + quality signals
+    ORCH->>H: Prepare draft / next step
+    H-->>U: Review, decide, send
+```
+
+---
+
+## 🧠 How I Think About AI Systems
+
+<table>
+  <tr>
+    <td><b>Bad AI implementation</b></td>
+    <td>Chatbot on top of a broken process</td>
+  </tr>
+  <tr>
+    <td><b>Good AI implementation</b></td>
+    <td>Structured system that understands input, prepares action, and supports human decisions</td>
+  </tr>
+  <tr>
+    <td><b>My preferred direction</b></td>
+    <td>AI as workflow infrastructure: extraction, classification, routing, drafting, validation, observability</td>
+  </tr>
+</table>
+
+Useful AI is not just a chatbot.
+
+Useful AI connects to real workflows.  
+It understands messy input, extracts what matters, prepares the next step, and keeps the human in control where judgment matters.
+
+That is the direction I focus on when building software:
+
+<div align="center">
+
+**clear system design · practical automation · reliable implementation · real process value**
+
+</div>
+
+---
+
+## 📊 Public GitHub Snapshot
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nico-wittemann&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nico-wittemann&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🤝 Connect
+
+I’m interested in practical AI, automation, multi-agent systems, backend engineering, and software that creates real workflow value.
+
+<p>
+  <a href="https://www.linkedin.com/in/nico-wittemann">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
