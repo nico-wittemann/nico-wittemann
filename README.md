@@ -43,78 +43,64 @@ Before moving into software, I worked in **industrial automation** as a PLC prog
 
 ---
 
-## 🧭 AI System Architecture Mindset
+## 🧭 AI Automation Architecture
 
 ```mermaid
-flowchart LR
-    subgraph INPUT["📥 Input Layer"]
-        A1["Emails"]
-        A2["Documents"]
-        A3["Forms"]
-        A4["Unstructured Text"]
-    end
+flowchart TD
+    A["📥 Messy Input<br/>Emails · Documents · Forms · Text"] --> B["🧠 AI Understanding<br/>Classification · Extraction · Context"]
+    B --> C["📊 Structured Output<br/>JSON · Fields · Missing Info · Priority"]
+    C --> D["⚙️ Workflow Logic<br/>Routing · API Actions · Drafts"]
+    D --> E["👤 Human Review<br/>Decision · Approval · Send"]
+    D --> F["📡 Observability<br/>Tracing · Debugging · Quality Checks"]
+    F -. feedback .-> B
 
-    subgraph UNDERSTANDING["🧠 AI Understanding Layer"]
-        B1["Classification"]
-        B2["Information Extraction"]
-        B3["Context Matching"]
-        B4["Validation"]
-    end
-
-    subgraph STRUCTURE["📊 Structured Output Layer"]
-        C1["JSON Output"]
-        C2["Detected Fields"]
-        C3["Missing Information"]
-        C4["Risk / Priority Signals"]
-    end
-
-    subgraph WORKFLOW["⚙️ Workflow Layer"]
-        D1["Routing Logic"]
-        D2["API Actions"]
-        D3["Draft Preparation"]
-        D4["Next Step Suggestion"]
-    end
-
-    subgraph CONTROL["👤 Human Control Layer"]
-        E1["Review"]
-        E2["Decision"]
-        E3["Send / Approve"]
-    end
-
-    subgraph OBSERVE["📡 Observability Layer"]
-        F1["Tracing"]
-        F2["Debugging"]
-        F3["Quality Checks"]
-        F4["Feedback Loops"]
-    end
-
-    INPUT --> UNDERSTANDING
-    UNDERSTANDING --> STRUCTURE
-    STRUCTURE --> WORKFLOW
-    WORKFLOW --> CONTROL
-    WORKFLOW --> OBSERVE
-    OBSERVE --> UNDERSTANDING
-
-    classDef input fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#ffffff;
-    classDef ai fill:#1e1b4b,stroke:#a78bfa,stroke-width:2px,color:#ffffff;
-    classDef output fill:#052e2b,stroke:#34d399,stroke-width:2px,color:#ffffff;
-    classDef workflow fill:#1c1917,stroke:#f59e0b,stroke-width:2px,color:#ffffff;
-    classDef human fill:#3f1d2b,stroke:#fb7185,stroke-width:3px,color:#ffffff;
+    classDef input fill:#0f172a,stroke:#38bdf8,stroke-width:3px,color:#ffffff;
+    classDef ai fill:#1e1b4b,stroke:#a78bfa,stroke-width:3px,color:#ffffff;
+    classDef output fill:#052e2b,stroke:#34d399,stroke-width:3px,color:#ffffff;
+    classDef workflow fill:#1c1917,stroke:#f59e0b,stroke-width:3px,color:#ffffff;
+    classDef human fill:#3f1d2b,stroke:#fb7185,stroke-width:4px,color:#ffffff;
     classDef observe fill:#111827,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
 
-    class A1,A2,A3,A4 input;
-    class B1,B2,B3,B4 ai;
-    class C1,C2,C3,C4 output;
-    class D1,D2,D3,D4 workflow;
-    class E1,E2,E3 human;
-    class F1,F2,F3,F4 observe;
+    class A input;
+    class B ai;
+    class C output;
+    class D workflow;
+    class E human;
+    class F observe;
 ```
 
 <div align="center">
 
-**From messy input to structured action — with AI preparing the workflow and humans staying in control.**
+**From unstructured input to structured workflow — with AI preparing the work and humans staying in control.**
 
 </div>
+
+---
+
+## 🧩 System Capabilities
+
+<table>
+  <tr>
+    <td><b>📥 Input Handling</b></td>
+    <td>Email text, documents, forms, customer messages, unstructured process data</td>
+  </tr>
+  <tr>
+    <td><b>🧠 AI Processing</b></td>
+    <td>Classification, extraction, context matching, structured JSON outputs</td>
+  </tr>
+  <tr>
+    <td><b>⚙️ Automation Logic</b></td>
+    <td>Routing, draft preparation, API actions, workflow decisions, next-step suggestions</td>
+  </tr>
+  <tr>
+    <td><b>🔐 Control & Privacy</b></td>
+    <td>Human-in-the-loop design, local/cloud model tradeoffs, privacy-conscious implementation</td>
+  </tr>
+  <tr>
+    <td><b>📡 Reliability</b></td>
+    <td>Validation logic, tracing, debugging, observability, quality feedback loops</td>
+  </tr>
+</table>
 
 ---
 
@@ -273,12 +259,13 @@ Python · Django REST Framework · PostgreSQL · JWT · Stripe · GPT-4o · Rend
 
 ---
 
-## 🧬 AI Workflow Blueprint
+<details>
+<summary><b>🧬 Technical Workflow Blueprint</b></summary>
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant U as User / Incoming Request
+    participant U as Incoming Request
     participant API as Backend API
     participant ORCH as Workflow Orchestrator
     participant LLM as LLM / Agent Layer
@@ -296,6 +283,8 @@ sequenceDiagram
     ORCH->>H: Prepare draft / next step
     H-->>U: Review, decide, send
 ```
+
+</details>
 
 ---
 
@@ -321,22 +310,9 @@ Useful AI is not just a chatbot.
 Useful AI connects to real workflows.  
 It understands messy input, extracts what matters, prepares the next step, and keeps the human in control where judgment matters.
 
-That is the direction I focus on when building software:
-
 <div align="center">
 
 **clear system design · practical automation · reliable implementation · real process value**
-
-</div>
-
----
-
-## 📊 Public GitHub Snapshot
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nico-wittemann&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nico-wittemann&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
