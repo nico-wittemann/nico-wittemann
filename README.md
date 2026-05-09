@@ -48,27 +48,31 @@ Before moving into software, I worked in **industrial automation** as a PLC prog
 <table>
   <tr>
     <td><b>🤖 Multi-Agent Systems</b></td>
-    <td>Agent-based workflows, task decomposition, tool usage, structured outputs</td>
+    <td>Agent-based workflows, task decomposition, tool usage, structured outputs, and workflow orchestration</td>
   </tr>
   <tr>
     <td><b>⚙️ AI Automation</b></td>
-    <td>Email workflows, internal process automation, classification and routing logic</td>
+    <td>Email workflows, internal process automation, classification, routing, and response preparation logic</td>
   </tr>
   <tr>
     <td><b>🧠 LLM Workflows</b></td>
-    <td>Prompt structures, output validation, RAG-style context usage, JSON-first responses</td>
+    <td>Prompt structures, output validation, RAG-style context usage, and JSON-first responses</td>
   </tr>
   <tr>
     <td><b>🔌 API Integrations</b></td>
-    <td>Backend services, authentication, external APIs, workflow orchestration</td>
+    <td>Backend services, authentication, external APIs, and workflow automation</td>
   </tr>
   <tr>
     <td><b>🔐 Privacy-Conscious AI</b></td>
     <td>Local AI models, cloud-vs-local tradeoffs, data protection aware implementation</td>
   </tr>
   <tr>
+    <td><b>📊 Observability</b></td>
+    <td>Tracing, debugging, monitoring, and quality checks for AI-supported workflows</td>
+  </tr>
+  <tr>
     <td><b>🧰 Agentic Development</b></td>
-    <td>Claude Code, Codex, MCP integrations, AI-assisted engineering workflows</td>
+    <td>Claude Code, Codex, MCP integrations, AI-assisted engineering, and structured development workflows</td>
   </tr>
 </table>
 
@@ -102,10 +106,11 @@ Before moving into software, I worked in **industrial automation** as a PLC prog
   <img src="https://img.shields.io/badge/Local%20AI%20Models-2E8B57?style=flat"/>
 </p>
 
-### Infrastructure, Auth & Tools
+### Backend, Auth, Observability & Tools
 
 <p>
   <img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat"/>
+  <img src="https://img.shields.io/badge/Logfire-FF6B35?style=flat"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
@@ -117,18 +122,57 @@ Before moving into software, I worked in **industrial automation** as a PLC prog
 
 ## 🔒 Private & Professional AI Work
 
-A large part of my current work is not public source code.
+A large part of my current AI and automation work is not public source code.
 
-That includes work around:
+This includes professional and private work around AI-supported systems that connect language models with real business workflows, APIs, internal tools, authentication flows, observability, and human review steps.
 
-- multi-agent systems for complex internal workflows
-- AI-supported automation for service and operational processes
-- email-based classification, routing, and response preparation
-- local and cloud-based model evaluation
-- privacy-conscious AI implementation
-- agentic coding workflows with Claude Code, Codex, MCP and custom tool usage
+Current areas I work on:
 
-This README shows the direction of my work without exposing private repositories, business logic, customer data, or internal company systems.
+- 🤖 Multi-agent systems for complex internal workflows
+- ⚙️ AI-supported automation for service, operations, and customer communication
+- 📩 Email-based classification, routing, and response preparation
+- 🧠 LLM workflows with structured outputs, validation logic, and tool usage
+- 🔌 API integrations, authentication flows, and backend automation
+- 🔐 Privacy-conscious AI implementation with cloud and local model setups
+- 📊 Observability and debugging for AI-supported workflows
+- 🧰 Agentic development workflows using Claude Code, Codex, MCP, and custom tool patterns
+
+The code for these systems is not public because it is connected to professional work, private business logic, product development, or internal workflows.
+
+This profile shows the technical direction without exposing private repositories, customer data, internal company systems, or production logic.
+
+---
+
+## 🧪 Independent AI Automation Project
+
+### AI Complaint Intake Copilot  
+Private codebase · Demo / product prototype
+
+I am building a private AI automation project focused on complaint intake workflows for B2B companies.
+
+The system is designed to turn incoming complaint emails and related information into structured case outputs:
+
+- case summary
+- detected customer and product information
+- missing information checklist
+- prepared customer reply draft
+- internal next step for the service team
+- human review before any final response is sent
+
+The goal is not to replace human decision-making.  
+The goal is to reduce manual preparation work, structure messy incoming communication, and help teams respond faster with better context.
+
+Technical direction:
+
+- Python / FastAPI backend
+- React-based demo interface
+- LLM-based extraction and classification
+- structured JSON outputs
+- email workflow automation
+- draft preparation logic
+- privacy-conscious human-in-the-loop design
+
+The repository is private because it contains product logic, implementation details, and business-specific workflow design.
 
 ---
 
