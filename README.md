@@ -1,81 +1,103 @@
-# 👨‍💻 Nico Wittemann – Backend Developer (Python · Django · PostgreSQL)
+# 👨‍💻 Nico Wittemann  
+## AI Developer · Multi-Agent Systems · AI Automation · Python Engineering
 
-Hi, I'm Nico – a junior backend developer with an engineering background, now fully focused on building real-world web backends using **Python**, **Django**, and **PostgreSQL**.
+I build AI-supported software systems that turn messy inputs into structured workflows.
 
-I love creating structured APIs, automating logic with clean Python code, and working with relational databases.  
-I'm also eager to **learn new frameworks or programming languages** to grow as a developer.
+My focus is on **multi-agent systems**, **AI automation**, **LLM workflows**, backend systems, API integrations, and practical tools that reduce repetitive manual work.
 
-Currently looking for a **Junior Backend Developer** role or internship to gain experience in production environments.
+Before moving into software, I worked in industrial automation as a PLC programmer. That background still shapes how I build: structured, process-oriented, reliable, and focused on systems that work in the real world — not just in demos.
+
+> Most of my current AI automation and multi-agent work is part of professional or private projects and is not fully open source.  
+> My public repositories show selected foundations in backend development, API design, structured data processing, and AI integration.
+
+---
+
+## 🚀 Current Focus
+
+- 🤖 Multi-agent systems and agent-based workflows  
+- ⚙️ AI automation for real business processes  
+- 🧠 LLM workflows and structured AI outputs  
+- 🔌 API integrations and backend automation  
+- 📄 Structured data extraction from unstructured input  
+- 🔐 Privacy-conscious AI implementation  
+- 🧩 Local and cloud-based AI model usage  
+- 🛠️ AI-assisted development workflows  
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages & Tools:**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST-API-green?style=flat"/>
+### Core
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+
+### AI & Automation
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![LLM Workflows](https://img.shields.io/badge/LLM%20Workflows-000000?style=flat)
+![Multi--Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-5B2EFF?style=flat)
+![AI Automation](https://img.shields.io/badge/AI%20Automation-7A3FE4?style=flat)
+![Local AI Models](https://img.shields.io/badge/Local%20AI%20Models-2E8B57?style=flat)
+
+### Backend, Data & Tools
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-009688?style=flat)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=flat)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
 ## 🔍 Highlight Projects
 
-### 🖥️ Django PC Webshop Backend (Django + GPT-4o)  
-A backend API for configuring custom PCs with intelligent GPT-based suggestions.
+### 🖥️ Django PC Webshop Backend  
+Backend API for configuring custom PCs with structured product data, authentication, order logic, payment handling, and AI-supported recommendations.
 
-- Django REST API with JWT auth, product/orders, Stripe payments + webhooks, and PostgreSQL 
-- GPT-4o integration to suggest PC builds based on budget and purpose  
-- CSV import automation and deployment on Render
-
-**Tech Stack:**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST-API-green?style=flat"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat"/>
-<img src="https://img.shields.io/badge/GPT4o-black?style=flat"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=flat"/>
-
-🔗 [**GitHub Repository**](https://github.com/nico-wittemann/django_pc_webshop_api)
-
----
-
-### 🎬 Movie Web App (Flask)  
-A simple web app to search and save movies using the OMDb API.
-
-- Flask app with movie search, user login, and favorites management  
-- OMDb API integration and local data storage with SQLite  
-- CRUD operations and routing with Flask Blueprints
+- Built a Django REST API with JWT authentication, product catalog, order management, and PostgreSQL
+- Integrated GPT-4o to generate PC build suggestions based on budget and intended use
+- Implemented CSV-based data import and filtering logic for structured component data
+- Added Stripe payment flow and webhook handling
+- Deployed the application with API documentation and production-oriented configuration
 
 **Tech Stack:**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/API--Development-blue?style=flat"/>
+Python · Django REST Framework · PostgreSQL · JWT · Stripe · GPT-4o · Render
 
-🔗 [**GitHub Repository**](https://github.com/nico-wittemann/MovieWeb_app)
+🔗 [GitHub Repository](https://github.com/nico-wittemann/django_pc_webshop_api)
 
 ---
 
-## 🎯 Goals
+### 🎬 Movie Web App  
+Flask web application for searching movies via the OMDb API and saving favorites.
 
-- Contribute to a real dev team and expand my backend skills  
-- Work on scalable APIs, authentication, and structured database logic  
-- Learn deployment, performance, and architecture best practices  
-- Stay open to learning new frameworks or programming languages like FastAPI, Docker, or others relevant to the team
+- Built a Flask app with movie search, user login, and favorites management
+- Integrated the OMDb API and local SQLite persistence
+- Implemented CRUD operations, routing, and basic session handling
+- Practiced clean application structure with Flask Blueprints
+
+**Tech Stack:**  
+Python · Flask · SQLite · OMDb API · Jinja2
+
+🔗 [GitHub Repository](https://github.com/nico-wittemann/MovieWeb_app)
 
 ---
 
-## 📫 Contact & Links
+## 🧠 How I Build
 
-📧 nico.wittemann96@gmail.com  
+I care about AI systems that are connected to real workflows.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-wittemann)  
-[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-Online-orange?style=flat&logo=firefox&logoColor=white)](https://nico-wittemann.github.io/personal-portfolio/)
+Useful AI is not just a chatbot.  
+Useful AI helps classify information, extract relevant data, prepare next steps, connect tools, and reduce repetitive manual work.
 
+That is the direction I focus on when building software:  
+**practical automation, clear system design, reliable implementation, and real process value.**
 
+---
 
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nico%20Wittemann-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-wittemann)
