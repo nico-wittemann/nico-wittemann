@@ -2,7 +2,7 @@
 
 # 👨‍💻 Nico Wittemann
 
-### AI Developer · Multi-Agent Systems · AI Automation · Python Engineering
+### AI Engineer · Multi-Agent Systems · AI Automation · Python Engineering
 
 I build AI-supported systems that turn messy inputs into structured workflows.
 
